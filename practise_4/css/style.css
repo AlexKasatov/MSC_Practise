@@ -1,4 +1,11 @@
 @import url(reset.css);
+
+@font-face {
+  src: url(/font/murmure-master/fonts/webfonts/LeMurmure-Regular.woff);
+  font-family: "Lemurmure";
+  font-weight: regural;
+}
+
 .image {
   height: 700px;
   width: 1920px;
@@ -28,6 +35,20 @@ nav {
   padding-left: 80px;
 }
 
+.page-container {
+  padding-left: 80px;
+  margin-top: 110px;
+}
+
+.section-heading {
+  font-family: "Lemurmure";
+  font-style: normal;
+  font-weight: regular;
+  font-size: 50px;
+  line-height: 57px;
+  color: #000000;
+}
+
 .links {
   height: 100px;
   width: 1920px;
@@ -40,8 +61,6 @@ nav {
   font-weight: bold;
   font-size: 25px;
   line-height: 100px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -50,4 +69,33 @@ nav {
 .menu-link {
   color: #ffffff;
   padding-right: 28px;
+}
+
+.footer-container {
+  background-color: #e5e000;
+  height: 100px;
+  width: 1920px;
+}
+
+.footer-logo {
+  padding-top: 20px;
+  display: flex;
+  padding-right: 300px;
+}
+
+.footer-container-info {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+  padding-left: 1080px;
+  background-image: url(/img/logo-mcs.png);
+  background-repeat: no-repeat;
+  background-position-x: 80px;
+  background-position-y: 25px;
 }
