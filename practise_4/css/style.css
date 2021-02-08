@@ -1,0 +1,53 @@
+@import url(reset.css);
+.image {
+  height: 700px;
+  width: 1920px;
+  background-image: url(..//img/main.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  background-color: #e5e000;
+  height: 100px;
+  width: 1920px;
+}
+
+#logo {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 80px;
+}
+nav {
+  padding-left: 80px;
+}
+
+.links {
+  height: 100px;
+  width: 1920px;
+  background-color: #e5e000;
+}
+
+.menu {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 100px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  color: #ffffff;
+  padding-right: 28px;
+}
