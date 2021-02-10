@@ -1,9 +1,9 @@
 @import url(reset.css);
 
 @font-face {
-  src: url(/font/murmure-master/fonts/webfonts/LeMurmure-Regular.woff);
+  src: url("../font/le-murmure.otf");
   font-family: "Lemurmure";
-  font-weight: regural;
+  font-weight: 200;
 }
 
 .image {
@@ -48,7 +48,7 @@ nav {
 .section-heading {
   font-family: "Lemurmure";
   font-style: normal;
-  font-weight: regular;
+  font-weight: 200;
   font-size: 124px;
   line-height: 57px;
   color: #000000;
@@ -81,14 +81,13 @@ nav {
 }
 
 .main-botton:hover {
-    background: #f4bcfb;
+  background: #f4bcfb;
 }
 
 .links {
   height: 100px;
   width: 1920px;
   background-color: #e5e000;
-  
 }
 
 .menu {
@@ -138,7 +137,7 @@ nav {
   text-align: right;
   color: #ffffff;
   padding-left: 1080px;
-  background-image: url(/img/logo-mcs.png);
+  background-image: url(../img/logo_mcs.png);
   background-repeat: no-repeat;
   background-position-x: 80px;
   background-position-y: 25px;
