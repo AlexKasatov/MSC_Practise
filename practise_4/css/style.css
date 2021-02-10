@@ -6,6 +6,11 @@
   font-weight: 200;
 }
 
+::selection {
+  color: #f4bcfb;
+  background: #e5e000;
+}
+
 .image {
   height: 810px;
   width: 1920px;
@@ -149,4 +154,10 @@ nav {
 
 .footer-link:hover {
   color: #f4bcfb;
+}
+
+.footer-font {
+  margin-top: 30px;
+  padding-left: 80px;
+  margin-bottom: 30px;
 }
